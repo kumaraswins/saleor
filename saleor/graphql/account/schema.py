@@ -21,9 +21,9 @@ from .mutations.account import (
     AccountUpdateMeta,
 )
 from .mutations.base import (
+    ConfirmAccount,
     PasswordChange,
     RequestPasswordReset,
-    ConfirmAccount,
     SetPassword,
     UserClearMeta,
     UserUpdateMeta,
